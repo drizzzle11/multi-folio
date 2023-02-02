@@ -1,0 +1,12 @@
+body{
+    font-family: bahnschrift, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #ffffff;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1250px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+}
