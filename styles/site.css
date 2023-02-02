@@ -1,12 +1,74 @@
+/* I am setting up the page layout here. I will glad if I am able to finish the banner today. */
 body{
     font-family: bahnschrift, Helvetica, sans-serif;
     min-height: 100vh;
     background-color: #ffffff;
-
     box-sizing: border-box;
     width: 100%;
+    overflow-x:hidden;
     max-width: 1250px;
     min-width: 400px;
     margin: 0 auto;
     padding: 0;
 }
+
+/* Narrow screens */
+/* Page setup ends above. Now I am styling the navigation bar and the logo. */
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 6px;
+    padding-top: 10px;
+    margin: 0;
+    min-width: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index:10;
+
+  }
+
+  nav li a {
+    padding: 10px;
+    font-size: 12pt;
+    font-weight: 350;
+    text-decoration: none;
+    color: #000000;
+    /* background-color: #be4242; */
+  }
+
+/* Styling the button */
+  button{
+    border-style:none;
+    background: none;
+    font-size: 20px;
+    font-weight: 50;
+    flex-grow: 5;
+}
+
+/* Adding style to the the logo. */
+em{
+    font-style: normal;
+    color: #000000;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 5;
+    padding-left: 15px;
+    padding-top: 10px;
+    min-width: 500;
+    /* background-color: aqua; */
+    margin: 0;
+    flex-grow: 80;
+}
+
+.narrowheader{
+    display: flex;
+    /* border: 1px solid aqua; */
+  }
+
+.hidden_nav{
+    display: none;
+  }

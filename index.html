@@ -5,20 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rimjhim Singh | Projects</title>
+    <link rel="stylesheet" type="text/css" href="styles/site.css"/>
 </head>
 <body>
     <header>
-        <h1><em>RIMJHIM</em>SINGH</h1>
-        <nav>
-          <ul>
-            <li><a href = projects.html>Projects</a></li>
-            <li><a href = about.html>About</a></li>
-          </ul>
-        </nav>
-        <p class="heading">Hello! I am Rimjhim.
-            <br>I am an architect and a designer.
-        </p>
-        <p>Scroll down to see my works!</p>
+        <div class = "narrowheader">
+            <h1> <em>RIMJHIM</em>SINGH</h1>
+            <button id="menu">&#9776;</button>
+        </div>
+
+        <div id="navigation" class="hidden_nav">
+            <nav>
+            <ul>
+                <li><a href = projects.html>Projects</a></li>
+                <li><a href = about.html>About</a></li>
+            </ul>
+            </nav>
+        </div>
     </header>
+    <p class="heading">Hello! I am Rimjhim.
+        <br>I am an architect and a designer.
+    </p>
+    <p>Scroll down to see my works!</p>
+
+<script src="scripts/jquery-3.6.1.js"></script>
+<script src="scripts/hamburger.js"></script>
 </body>
+
+
 </html>
